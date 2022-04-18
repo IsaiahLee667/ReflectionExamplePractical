@@ -1,5 +1,6 @@
 package reflections.App;
 
+import reflections.Entity.Cat;
 import reflections.Entity.Dog;
 import reflections.Entity.Person;
 
@@ -14,6 +15,8 @@ public class App {
         Spot.setNameOfOwner("Isaiah");
 
         System.out.println("Hello");
+
+        Cat Meowth = new Cat();
 
 
     }
